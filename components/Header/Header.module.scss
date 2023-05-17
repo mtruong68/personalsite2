@@ -1,0 +1,43 @@
+.menu {
+  cursor: pointer;
+  left: 12px;
+  position: fixed;
+  top: 12px;
+  z-index: 1;
+  &__icon {
+    background: #b3b3b3;
+    border-radius: 50%;
+    color: #0d0f28;
+    font-size: 36px;
+    padding: 12px;
+    &:hover {
+      background: #d7e0de;
+    }
+    &--day {
+      background: #234f53;
+      color: #f0ecd0;
+      &:hover {
+        background: #0d6d79;
+      }
+    }
+  }
+}
+
+.dark_mode {
+  border: none;
+  color: #b3b3b3;
+  cursor: pointer;
+  &:hover {
+    color: #d7e0de;
+  }
+  &--day {
+    color: #234f53;
+    &:hover {
+      color: #0d6d79;
+    }
+  }
+  &__icon {
+    font-size: 36px;
+    margin-left: 12px;
+  }
+}

@@ -1,0 +1,77 @@
+/*------------------------------------*\
+    $GENERAL
+\*------------------------------------*/
+@import 'vendors/include-media.scss';
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+html {
+
+}
+
+html,
+body {
+  margin: 0;
+  width: 100vw;
+  max-width: 100%;
+  font-weight: 300;
+  font-family: "Ubuntu";
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+audio,
+canvas,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+img, video, object, svg, iframe {
+  max-width: 100%;
+  border: none;
+}
+svg {
+  max-height: 100%;
+}
+figure {
+  max-width: 100%;
+  margin: 0;
+}
+button {
+  background-color: transparent;
+  padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 102px;
+  margin: 0px;
+  font-family: 'Unbounded';
+}
+
+body {
+  font-weight: normal;
+  -webkit-text-size-adjust:none;
+  line-height: 1.2;
+}
+
+ul, ol {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+//general styles
+.underline {
+  text-decoration: underline;
+}

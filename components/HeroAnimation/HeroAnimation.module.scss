@@ -1,0 +1,281 @@
+.flower1 {
+  height: 70%;
+  position: absolute;
+  bottom: 9%;
+  left: -2%;
+}
+.flower2 {
+  height: 85%;
+  position: absolute;
+  bottom: 6%;
+  right: 0;
+}
+
+.rock {
+  position: absolute;
+  height: 25%;
+  bottom: 10%;
+  left: 8%;
+
+}
+
+.grid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: .08;
+  &__line {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 3px;
+  }
+}
+
+.ground1_container {
+  min-width: 100vw;
+  position: absolute;
+  bottom: -8%;
+}
+
+.animate {
+  &__pink {
+    transform-origin: 55% 60%;
+    animation: pink1rotation 1.5s infinite ease-in-out;
+    animation-direction: alternate;
+  }
+  &__leaf1 {
+    transform-origin: 38% 65%;
+    animation: pink1rotation .8s infinite ease-in-out;
+    animation-direction: alternate;
+  }
+  &__leaf2 {
+    transform-origin: 35% 78%;
+    animation: pink1rotation 1s infinite ease-in-out;
+    animation-direction: alternate;
+  }
+  &__orange {
+    transform-origin: 80% 95%;
+    animation: pink1rotation 1.8s infinite ease-in-out;
+    animation-direction: alternate-reverse;
+  }
+  &__pink1 {
+    transform-origin: 20% 95%;
+    animation: pink2rotation 2.4s infinite ease-in-out;
+    animation-direction: alternate-reverse;
+  }
+  &__greenleaf1 {
+    transform-origin: 75% 65%;
+    animation: pink2rotation 1s infinite ease-in-out;
+    animation-direction: alternate-reverse;
+  }
+  &__greenleaf2 {
+    transform-origin: 65% 70%;
+    animation: pink1rotation 1s infinite ease-in-out;
+    animation-direction: alternate-reverse;
+  }
+}
+
+@keyframes pink1rotation {
+  from {
+    transform: rotate(2deg);
+  }
+  to {
+    transform: rotate(-2deg);
+  }
+}
+
+@keyframes pink2rotation {
+  from {
+    transform: rotate(-1deg);
+  }
+  to {
+    transform: rotate(1deg);
+  }
+}
+
+//ground
+.ground1{
+  fill:#6b99aa;
+  &--day {
+    fill:#efb64b;
+  }
+}
+
+//rocks
+.rock1{
+  fill: #8987bf;
+  &--day {
+    fill: #c57fb6
+  }
+}
+.st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+.st2{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st3{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+.rock2{
+  fill:#616393;
+  &--day {
+    fill:#a471b7;
+  }
+}
+
+.rock3 {
+  fill: #acadd5;
+  &--day {
+    fill:#C1A3B8;
+  }
+}
+
+.rock4 {
+  fill: #9383b3;
+  &--day {
+    fill:#ae7ea6;
+  }
+}
+
+//flower 1
+.pink1{
+  fill:#49739b;
+  &--day {
+    fill:#da6889;
+  }
+  &__ellipse {
+    fill: #b8c1d2;
+    &--day {
+      fill:#F4D600;
+    }
+  }
+  &__leaf {
+    fill:#71c2be;
+    &--day {
+      fill:#F4D600;
+    }
+  }
+}
+.st7{
+  fill:none;
+  stroke:#3e6c72;
+  stroke-width:9;
+  stroke-miterlimit:10;
+  &--day {
+    stroke: #f3de56;
+  }
+}
+
+.orange {
+  &__leaf {
+    fill: #4c7b81;
+    &--day {
+       fill: #858450;
+    }
+  }
+  &__flower{
+    fill:#807eb0;
+    &--day {
+      fill:#FF6B51;
+    }
+  }
+  &__stem{
+    fill:none;
+    stroke:#92b7a3;
+    stroke-width:9;
+    stroke-miterlimit:10;
+    &--day {
+      stroke: #a79b69;
+    }
+  }
+}
+
+
+
+
+//salmon
+.salmon{
+  &__stem{
+    fill:none;
+    stroke:#618381;
+    stroke-width:4;
+    stroke-miterlimit:10;
+    &--day {
+      stroke: #647b49;
+    }
+  }
+  &__flower{
+    fill: #8c85a4;
+    &--day {
+      fill:#F97F87;
+    }
+  }
+  &__leaf{
+    fill: #72a7a1;
+    &--day {
+      fill: #848444;
+    }
+  }
+  &__petal1{
+    fill: #78699e;
+    &--day {
+      fill:#E06372;
+    }
+  }
+  &__petal2{
+    fill: #675f8d;
+    &--day {
+      fill:#C65172;
+    }
+  }
+}
+.style4{fill:none;stroke:#ffffff;stroke-miterlimit:10;}
+
+//pink2
+.pink2{
+  &__stem {
+    fill:none;
+    stroke:#435d6c;
+    stroke-width:9;
+    stroke-miterlimit:10;
+    &--day {
+      stroke: #8d688d;
+    }
+  }
+  &__flower{
+    fill: #667ac1;
+    &--day {
+      fill: #da6889;
+    }
+  }
+  &__leaf{
+    fill: #535389;
+    &--day{
+      fill: #a68cab;
+    }
+  }
+}
+.yellow {
+  &__petal {
+    fill: #83a48e;
+    &--day {
+      fill:#FFDE2A;
+    }
+  }
+  &__flower {
+    fill: #7b9789;
+    &--day {
+      fill:#FFEA5F;
+    }
+  }
+  &__stem {
+    fill:none;
+    stroke-width:4;
+    stroke-miterlimit:10;
+    stroke: #c2c5c3;
+    &--day {
+      stroke:#DB9930;
+    }
+  }
+}
+
+
+.style9{fill:#FFDE4A;}
+.style10{fill:#5B86AF;}
+.style12{fill:none;stroke:#ffffff;stroke-miterlimit:10;}
