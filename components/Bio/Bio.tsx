@@ -26,7 +26,7 @@ export default function Bio(props) {
         </div>
       </div>
       <p>
-        Mary is a developer, artist, and writer. She believes in the value of aesthetic experiences. She is currently working at PNC Bank in Pittsburgh in their technology development program. She worked at pill & pillow studio in Hong Kong as a front-end developer. This is the rest of her resume. She has experience with modern JS frameworks, responsive web design, WCAG accessibility, SQL, and Python. She aspires to make weird(ly moving) artworks. You can contact her at mtruong68@gmail.com.
+        Mary is a developer, artist, and writer. She believes in the value of aesthetic experiences. She is currently working at PNC Bank in Pittsburgh in their technology development program. She worked at pill & pillow studio in Hong Kong as a front-end developer. <a href="https://drive.google.com/file/d/1MMhqfdScHiZtw31Z-LpbXZahImsxE-tP/view?usp=sharing" target="_blank">This is the rest of her resume.</a> She has experience with modern JS frameworks, responsive web design, WCAG accessibility, SQL, and Python. She aspires to make weird(ly moving) artworks. You can contact her at mtruong68@gmail.com.
       </p>
     </div>
   )
