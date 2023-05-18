@@ -104,6 +104,27 @@ export default function Home() {
           </nav>
         </div>
 
+        <div className={`${styles['mobile__container']}`}>
+          <nav className={styles.mobile__nav}>
+            <ul className={styles.mobile__list}>
+              {navItems.map((item, i) => {
+                return (
+                  <li key={item.title}
+                  className={`${styles.mobile__item}`}
+                  >
+                    <Link
+                      href={item.href}
+                      className={`${styles.mobile__link} ${isDay && styles['mobile__link--day']}`}
+                    >
+                      {item.title}
+                    </Link>
+                  </li>
+                )
+              })}
+            </ul>
+          </nav>
+        </div>
+
         <nav>
           <ul className={`${styles.nav} ${isDay && styles['nav--day']}`}>
             <li

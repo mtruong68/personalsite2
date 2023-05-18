@@ -23,6 +23,24 @@
   }
 }
 
+.menu--mobile {
+  .dark_mode {
+    &__icon {
+      background: #0d0f28;
+      border-radius: 50%;
+      padding: 12px;
+      margin-left: 8px;
+    }
+    &--day {
+      .dark_mode__icon{
+        background: #f0ecd0;
+
+
+      }
+    }
+  }
+}
+
 .dark_mode {
   border: none;
   color: #b3b3b3;

@@ -8,9 +8,10 @@ export default function Header(props) {
   const context = useContext(AppContext);
   const isDay = context.isDay;
   const setDay = context.setDay;
+  const isMobile = context.isMobile;
 
   return (
-    <div className={styles.menu}>
+    <div className={`${styles.menu} ${isMobile && styles['menu--mobile']}`}>
       <Link href="/">
         <span className={`${"material-symbols-rounded"} ${styles.menu__icon} ${isDay && styles['menu__icon--day']}`}>
           home

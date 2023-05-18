@@ -1,3 +1,5 @@
+@import '/styles/vendors/include-media.scss';
+
 .flower1 {
   height: 70%;
   position: absolute;
@@ -279,3 +281,12 @@
 .style9{fill:#FFDE4A;}
 .style10{fill:#5B86AF;}
 .style12{fill:none;stroke:#ffffff;stroke-miterlimit:10;}
+
+@include media($media-tablet-down...) {
+  .hero {
+    display: none;
+  }
+  .grid {
+    position: fixed;
+  }
+}
