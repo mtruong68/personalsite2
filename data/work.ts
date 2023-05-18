@@ -58,7 +58,7 @@ export const workData:workpage[] = [
   {
     title:"IFC",
     link: 'https://ifc.com.hk/en/mall/',
-    images: [],
+    images: ["ifc_1.png", "ifc_2.jpg"],
     tech: 'React, Next.js',
     text: 'Minisites for events at the IFC Mall',
     slug: 'ifc'
